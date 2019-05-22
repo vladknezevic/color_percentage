@@ -1,7 +1,6 @@
 def colorPercentage(img):
     import cv2
     import numpy as np 
-    import os
 
     imgHSV = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
 
